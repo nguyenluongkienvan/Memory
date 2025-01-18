@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .album-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .photo {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .photo img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .photo-description {
+            background-color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Memory</h1>
+</header>
+
+<div class="album-container">
+    <div class="photo">
+        <img src="image1.jpg" alt="Ảnh 1">
+        <div class="photo-description">2021</div>
+    </div>
+    <div class="photo">
+        <img src="image2.jpg" alt="Ảnh 2">
+        <div class="photo-description">2023</div>
+    </div>
+    <div class="photo">
+        <img src="image3.jpg" alt="Ảnh 3">
+        <div class="photo-description">2024</div>
+    </div>
+    <div class="photo">
+        <img src="image4.jpg" alt="Ảnh 4">
+        <div class="photo-description">2025</div>
+    </div>
+    <div class="photo">
+        <img src="image5.jpg" alt="Ảnh 5">
+        <div class="photo-description">2025</div>
+    </div>
+
+</div>
+
+</body>
+</html>
